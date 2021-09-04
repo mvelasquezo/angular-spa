@@ -24,16 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-              , "src/styles-apa.css"
-              , "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/styles.css",
+              "src/styles-apa.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.slim.min.js"
-              , "node_modules/popper.js/dist/umd/popper.min.js"
-              , "node_modules/bootstrap/dist/js/bootstrap.min.js"
-              , "src/assets/libs/base/jsBase.js"
-              , "src/assets/libs/gen/jsGen.js"
+              "node_modules/jquery/dist/jquery.slim.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/libs/base/jsBase.js",
+              "src/assets/libs/gen/jsGen.js"
             ]
           },
           "configurations": {
@@ -126,8 +126,13 @@
               "devServerTarget": "spa:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "spa"
 }
