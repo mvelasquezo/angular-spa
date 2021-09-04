@@ -9,3 +9,6 @@ Ha sido desarrollada de la mano del [curso](https://www.udemy.com/course/angular
 
 ### Destacados 
 Existen modificaciones a lo largo de todo este proyecto, sobre todo, en la parte del componente de búsqueda integrandolo sobre el componente de **heroes**, es decir, suprimir por completo el componente de *busqueda-heroe* colocando una librería propia para se lance de forma automática la búsqueda (después de *n* milisegundos "siendo este tiempo configurable en la librería", o bien, inmediatamente después de oprimir la tecla enter) al tipear algún texto en la caja de búsqueda y así mostrar las coincidencias encontradas. De una forma similar al borrar una búsqueda y dejar en cuadro de entrada vacío presentar el listado completo de héroes.
+
+### Despliegue
+Para ver el proyecto [accede aquí](https://mvelasquezo.github.io/angular-spa/ "accede aquí").
